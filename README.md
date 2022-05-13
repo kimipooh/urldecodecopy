@@ -1,6 +1,6 @@
 # urldecodecopy
 エンコード前のURLをクリップボードにコピーする Google Chrome用の拡張機能です。
-Google Help Community での回答用に、Chromeの拡張機能に詳しい Product Experts の力を借りて作成しました。
+Google Help Community での回答用に、Chromeの拡張機能に詳しい Product Experts (Hikochang 氏)の力を借りて作成しました。
 
 # インストール方法
 ダウンロード（ZIP圧縮）し、そのファイルを展開。
