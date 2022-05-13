@@ -1,0 +1,2 @@
+# urldecodecopy
+エンコード前のURLをクリップボードにコピーする Google Chrome用の拡張機能です
