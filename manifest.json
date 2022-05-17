@@ -1,7 +1,7 @@
 {
   "name": "URLデコードコピー",
   "description": "エンコード前のURLをクリップボードにコピーする拡張機能です。",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 3,
   "permissions": [
     "activeTab",

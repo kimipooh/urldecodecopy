@@ -74,10 +74,22 @@ function CopyUrl2(url){
     decodeURL = decodeURIComponent(url);
   }catch(e){}
   let get_tag = "h1";
-  if( (new RegExp('https:\/\/kitaney-google\.blogspot\.com\/*')).test(url) ){
+  if( (new RegExp('https:\/\/kitaney-google\.blogspot\.com\/*')).test(url) ||  
+      (new RegExp('https:\/\/kitaney-wordpress\.blogspot\.com\/*')).test(url) ){
       get_tag = "h3";
+  }else if( (new RegExp('https:\/\/news\.yahoo\.co\.jp\/*')).test(url) ){
+      get_tag = "article > header > h1";
   }
+  
   let title = document.querySelector(get_tag).innerText;
+  if(!title){
+     get_tag = "h2";
+     title = document.querySelector(get_tag).innerText;  
+     if(!title){
+         get_tag = "h3";
+         title = document.querySelector(get_tag).innerText;  
+     }
+  }
   let elem = document.createElement( 'a' );
   elem.href = url;
   elem.appendChild(document.createTextNode(title));
