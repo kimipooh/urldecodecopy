@@ -79,6 +79,8 @@ function CopyUrl2(url){
       get_tag = "h3";
   }else if( (new RegExp('https:\/\/news\.yahoo\.co\.jp\/*')).test(url) ){
       get_tag = "article > header > h1";
+  }else if( (new RegExp('https:\/\/eset-support\.canon-its\.jp\/*')).test(url) ){
+      get_tag = "h2.faq_qstCont_ttl > span.icoQ";
   }
   
   let title = document.querySelector(get_tag).innerText;

@@ -19,6 +19,8 @@ Chormeの拡張機能にある「パッケージ化されていな拡張機能�
 
 
 # 開発履歴
+- 1.2: いくつかのサイトに対応
+https://eset-support.canon-its.jp/
 - 1.1: いくつかのサイトに対応
 https://news.yahoo.co.jp, https://kitaney-wordpress.blogspot.com
 - 1.0: リリース
